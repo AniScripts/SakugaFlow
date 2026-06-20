@@ -18,7 +18,7 @@
     python: { name: 'Python 3', group: 'python', url: 'https://www.python.org/downloads/', desc: 'Required for auto-install and optional upscale scripts.' },
     ffmpeg: { name: 'FFmpeg', group: 'exe', candidates: ['ffmpeg.exe', 'ffmpeg\\ffmpeg.exe', 'ffmpeg\\bin\\ffmpeg.exe'], url: 'https://ffmpeg.org/download.html', desc: 'Video/audio processing, frame extraction, encoding.' },
     ffprobe: { name: 'FFprobe', group: 'exe', candidates: ['ffprobe.exe', 'ffmpeg\\ffprobe.exe', 'ffmpeg\\bin\\ffprobe.exe'], url: 'https://ffmpeg.org/download.html', desc: 'Video metadata reader. Comes with FFmpeg.' },
-    realesrgan: { name: 'Real-ESRGAN', group: 'exe', candidates: ['realesrgan-ncnn-vulkan.exe'], url: 'https://github.com/xinntao/Real-ESRGAN/releases', desc: 'AI upscaling engine (anime video model).' }
+    realesrgan: { name: 'Real-ESRGAN', group: 'exe', candidates: ['realesrgan\\realesrgan-ncnn-vulkan.exe', 'Real-ESRGAN\\realesrgan-ncnn-vulkan.exe', 'realesrgan-ncnn-vulkan.exe'], url: 'https://github.com/xinntao/Real-ESRGAN/releases', desc: 'AI upscaling engine (anime video model).' }
   };
 
   function _resolveDefaultFolder() {
