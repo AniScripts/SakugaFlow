@@ -636,6 +636,9 @@
     var skipped = window.StorageManager.getItem('sakugaflow_tools_setup_skipped', '0');
     var complete = window.StorageManager.getItem('sakugaflow_tools_setup_complete', '0');
     if (skipped === '1' || complete === '1') {
+      var defaults = _resolveDefaultFolder();
+      _toolsFolder = (window.App && window.App.sakugaflowToolsFolder) || defaults.backend;
+      _pythonFolder = (window.App && window.App.sakugaflowPythonEnvFolder) || defaults.python;
       var results = scanFileTools();
       if (results.ffmpeg.found && results.ffprobe.found && results.realesrgan.found) {
         return false;
