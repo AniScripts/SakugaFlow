@@ -272,6 +272,7 @@
               } catch (e) {}
             }
           }
+          if (!modelFound) { found = false; toolPath = ''; }
         }
       }
       results[key] = { found: found, path: toolPath };
