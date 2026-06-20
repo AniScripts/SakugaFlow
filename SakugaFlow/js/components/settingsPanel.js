@@ -157,7 +157,6 @@
             var upscaleBtn = document.getElementById('upscaleTabBtn');
             if (newValue) {
               window.StorageManager.removeItem("sakugaflow_upscale_disabled");
-              window.StorageManager.removeItem("sakugaflow_tools_setup_skipped");
               if (upscaleBtn) upscaleBtn.style.display = '';
             } else {
               window.StorageManager.setItem("sakugaflow_upscale_disabled", "1");
