@@ -1,3 +1,9 @@
+> [!IMPORTANT]
+> ### 🚨 Repository Moved to GitLab
+> This repository has officially migrated to **GitLab** and is now archived on GitHub for historical reference.
+>
+> 📦 **Active Development & Releases**: [https://gitlab.com/aniscripts/sakugaflow](https://gitlab.com/aniscripts/sakugaflow)
+
 <h1 align="center">
   <img src="SakugaFlow/SakugaFlow-Logo.png" width="" alt="SakugaFlow"/>
   <br />
